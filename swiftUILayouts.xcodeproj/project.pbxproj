@@ -15,6 +15,18 @@
 		35ABEBA92623540F0017A55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ABEBA72623540F0017A55C /* LaunchScreen.storyboard */; };
 		35ABEBB42623540F0017A55C /* swiftUILayoutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBB32623540F0017A55C /* swiftUILayoutsTests.swift */; };
 		35ABEBBF2623540F0017A55C /* swiftUILayoutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBBE2623540F0017A55C /* swiftUILayoutsUITests.swift */; };
+		35ABEBD3262354870017A55C /* Vstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBD2262354870017A55C /* Vstacks.swift */; };
+		35ABEBD4262354870017A55C /* Vstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBD2262354870017A55C /* Vstacks.swift */; };
+		35ABEBD5262354870017A55C /* Vstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBD2262354870017A55C /* Vstacks.swift */; };
+		35ABEBDD262356120017A55C /* Hstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBDC262356120017A55C /* Hstacks.swift */; };
+		35ABEBDE262356120017A55C /* Hstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBDC262356120017A55C /* Hstacks.swift */; };
+		35ABEBDF262356120017A55C /* Hstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBDC262356120017A55C /* Hstacks.swift */; };
+		35ABEBE42623567D0017A55C /* Zstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBE32623567D0017A55C /* Zstacks.swift */; };
+		35ABEBE52623567D0017A55C /* Zstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBE32623567D0017A55C /* Zstacks.swift */; };
+		35ABEBE62623567D0017A55C /* Zstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBE32623567D0017A55C /* Zstacks.swift */; };
+		35ABEBEC262357EA0017A55C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBEB262357EA0017A55C /* Blueprint1.swift */; };
+		35ABEBED262357EA0017A55C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBEB262357EA0017A55C /* Blueprint1.swift */; };
+		35ABEBEE262357EA0017A55C /* Blueprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ABEBEB262357EA0017A55C /* Blueprint1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,10 @@
 		35ABEBBA2623540F0017A55C /* swiftUILayoutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUILayoutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35ABEBBE2623540F0017A55C /* swiftUILayoutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILayoutsUITests.swift; sourceTree = "<group>"; };
 		35ABEBC02623540F0017A55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35ABEBD2262354870017A55C /* Vstacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vstacks.swift; sourceTree = "<group>"; };
+		35ABEBDC262356120017A55C /* Hstacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hstacks.swift; sourceTree = "<group>"; };
+		35ABEBE32623567D0017A55C /* Zstacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zstacks.swift; sourceTree = "<group>"; };
+		35ABEBEB262357EA0017A55C /* Blueprint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprint1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,10 @@
 		35ABEB9B2623540E0017A55C /* swiftUILayouts */ = {
 			isa = PBXGroup;
 			children = (
+				35ABEBEA2623576A0017A55C /* Demonstrations */,
+				35ABEBD1262354540017A55C /* ZStacks */,
+				35ABEBD02623544A0017A55C /* Hstacks */,
+				35ABEBCF2623543C0017A55C /* Vstacks */,
 				35ABEB9C2623540E0017A55C /* AppDelegate.swift */,
 				35ABEB9E2623540E0017A55C /* SceneDelegate.swift */,
 				35ABEBA02623540E0017A55C /* ContentView.swift */,
@@ -134,6 +154,38 @@
 				35ABEBC02623540F0017A55C /* Info.plist */,
 			);
 			path = swiftUILayoutsUITests;
+			sourceTree = "<group>";
+		};
+		35ABEBCF2623543C0017A55C /* Vstacks */ = {
+			isa = PBXGroup;
+			children = (
+				35ABEBD2262354870017A55C /* Vstacks.swift */,
+			);
+			path = Vstacks;
+			sourceTree = "<group>";
+		};
+		35ABEBD02623544A0017A55C /* Hstacks */ = {
+			isa = PBXGroup;
+			children = (
+				35ABEBDC262356120017A55C /* Hstacks.swift */,
+			);
+			path = Hstacks;
+			sourceTree = "<group>";
+		};
+		35ABEBD1262354540017A55C /* ZStacks */ = {
+			isa = PBXGroup;
+			children = (
+				35ABEBE32623567D0017A55C /* Zstacks.swift */,
+			);
+			path = ZStacks;
+			sourceTree = "<group>";
+		};
+		35ABEBEA2623576A0017A55C /* Demonstrations */ = {
+			isa = PBXGroup;
+			children = (
+				35ABEBEB262357EA0017A55C /* Blueprint1.swift */,
+			);
+			path = Demonstrations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35ABEB9D2623540E0017A55C /* AppDelegate.swift in Sources */,
+				35ABEBDD262356120017A55C /* Hstacks.swift in Sources */,
 				35ABEB9F2623540E0017A55C /* SceneDelegate.swift in Sources */,
 				35ABEBA12623540E0017A55C /* ContentView.swift in Sources */,
+				35ABEBD3262354870017A55C /* Vstacks.swift in Sources */,
+				35ABEBE42623567D0017A55C /* Zstacks.swift in Sources */,
+				35ABEBEC262357EA0017A55C /* Blueprint1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35ABEBDE262356120017A55C /* Hstacks.swift in Sources */,
 				35ABEBB42623540F0017A55C /* swiftUILayoutsTests.swift in Sources */,
+				35ABEBD4262354870017A55C /* Vstacks.swift in Sources */,
+				35ABEBED262357EA0017A55C /* Blueprint1.swift in Sources */,
+				35ABEBE52623567D0017A55C /* Zstacks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35ABEBDF262356120017A55C /* Hstacks.swift in Sources */,
 				35ABEBBF2623540F0017A55C /* swiftUILayoutsUITests.swift in Sources */,
+				35ABEBD5262354870017A55C /* Vstacks.swift in Sources */,
+				35ABEBEE262357EA0017A55C /* Blueprint1.swift in Sources */,
+				35ABEBE62623567D0017A55C /* Zstacks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
